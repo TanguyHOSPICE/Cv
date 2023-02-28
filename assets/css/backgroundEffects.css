@@ -1,0 +1,13 @@
+/* ***container-bg-*** */
+.container-bg-front {
+	width: 100vw;
+	height: 100vh;
+	z-index: 5000;
+	background: var(--main-bg-front);
+}
+.container-bg-back {
+	width: 100vw;
+	height: 100vh;
+	z-index: -5000;
+	background: var(--main-bg-back);
+}
